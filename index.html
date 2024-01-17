@@ -7,37 +7,57 @@
     <title>Hotel Reservation System</title>
   </head>
   <body>
-    <nav class="flex gap-5 m-2 p-3 text-blue-600">
-      <div>Features</div>
-      <div>Resources</div>
-      <div>Pricing</div>
-      <div>
-        <button class="border border-sky-500 border-solid mr-1 ml-0">
+    <nav class="flex gap-5 m-1 p-3 text-black">
+      <div class="text-center">Features</div>
+      <div class="text-center">Resources</div>
+      <div class="text-center">Pricing</div>
+      <div
+        class="flex-grow flex items-center justify-center text-3xl font-bold"
+      >
+        GrihaNepal
+      </div>
+      <div class="ml-auto">
+        <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded">
           Try for free
         </button>
       </div>
       <div>
-        <button class="border border-sky-500 border-solid">Login</button>
+        <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded">
+          Login
+        </button>
       </div>
     </nav>
+
     <main
-      class="flex border border-solid m-2 p-2 bg-[rgb(255,245,238)] gap-10 h-96"
+      class="grid grid-rows-1 grid-cols-2 border border-solid m-2 p-2 bg-[rgb(255,245,238)] gap-10 h-96"
     >
-      <div class="gap-5">
-        <section><h1 class="font-bold">Hotel Reservation System</h1></section>
+      <div class="grid grid-rows-4">
         <section>
-          <p class="text-sm">
+          <h1 class="font-bold p-4 text-center text-3xl">
+            Hotel Reservation System
+          </h1>
+        </section>
+        <section>
+          <p class="text-sm text-center">
             Take your small property's bookings online with GrihaNepal
           </p>
         </section>
-        <section>
-          <div><button class="border border-sky-500">Watch Demo</button></div>
-          <div><button class="border border-sky-500">Try for free</button></div>
+        <section class="flex gap-4 justify-center">
+          <div>
+            <button class="bg-black text-white font-bold py-2 px-4 rounded">
+              Availability
+            </button>
+          </div>
+          <div>
+            <button class="bg-white text-black font-bold py-2 px-4 rounded">
+              Try for free
+            </button>
+          </div>
         </section>
       </div>
-      <div class="gap-5">
+      <div class="bg-black">
         <img
-          class="h-40 w-41"
+          class="w-full h-full object-cover"
           src="images/visualsofdana-T5pL6ciEn-I-unsplash.jpg"
           alt=""
         />
@@ -45,13 +65,30 @@
     </main>
     <!-- Third Section -->
     <section
-      class="flex border border-solid m-2 p-2 bg-[rgb(200,245,238)] gap-10 h-48"
-    >
-      Best Hotels in Town
+      class="grid  border border-solid m-2  bg-[rgb(200,245,238)] gap-10 h-48" >
+      <div class="flex">
+        <img
+          class="w-full h-48 object-cover"
+          src="./images/edvin-johansson-rlwE8f8anOc-unsplash.jpg"
+          alt=""
+        />
+        
     </section>
     <!-- Footer Section -->
-    <footer class="bg-black text-white text-lg m-2 text-center h-48">
-      Footer Section
+    <footer class="bg-black grid grid-cols-2 text-white text-lg m-2 text-center h-48">
+      <div class="grid">
+        <h2 class="text-2xl underline">Product Features</h2>
+        <h3>Front Desk</h3>
+        <h3>Hotel Booking Engine</h3>
+        <h3>Hotel Website builder</h3>
+      </div>
+      <div class="grid">
+        <h2 class="text-2xl underline">Company</h2>
+        <h3>Contact Us</h3>
+        <h3>About Us</h3>
+        <h3>News</h3>
+      
+      </div>
     </footer>
   </body>
 </html>
